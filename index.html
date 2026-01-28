@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+   
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="icon" type="image/x-icon" href="favicon.ico">-->
+    <link href="./Styles/default.css" rel="stylesheet" type="text/css" media="all">
+    <title>SwatmanS</title>
+    <meta name="description" content="Portfolio of Sam Swatman (SwatmanS), 1st Class Computer Science Graduate">
+</head>
+
+<body>
+    <nav>
+        <!-- NavBar Top Left Logo, Top Right Links (Collapse Into Burger) -->
+        <!-- Anchor to Top ALWAYS VISIBLE -->
+        <!-- Should Work When cpy/pst to different page in ./-->
+        <ul>
+            <li><a class="Nav-Logo" href="#">Logo</a></li>
+            <div class="Nav-Links">
+            <li><a class="Nav-Itm" href="./index.html">Home</a></li>
+            <li><a class="Nav-Itm" href="">Link</a></li>
+            <li><a class="Nav-Itm" href="">Link</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Title</h1>
+        <p>Main About</p>
+    </header>
+
+    <aside>
+        <!-- Contents Table + Extra Controls (If Needed) -->
+         <!-- Anchor to Left ALWAYS VISIBLE but Collapsable -->
+    </aside>
+
+    <main>
+        <h1>SwatmanS</h1>
+        <p>Welcome to the website of Events Guide North!</p>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2026 Sam Swatman. All Rights Reserved</p>
+    </footer>
+
+    <div id="Background">
+    </div>
+
+    <script>
+    /**window.addEventListener('load', setInterval(function(){ //Set interval to get new offer
+        "use strict"; 
+        const offersJSON = 'getOffers.php';
+        fetch(offersJSON)
+            //Process response
+            .then( function (response) {
+                console.log(response); 
+                return response.json(); 
+                })
+            //Check Json is working
+            .then( function (json) {
+                getNewOffer(json);
+                console.log( json ); 
+                //this is wrong but really funny :]
+                //setInterval(function() {location.href="/KF5002AssesmentSite/home.php";},5000);
+                })
+            //Fail
+            .catch( function (error) {
+                console.log( "Error in window EventListener", error );
+                });		
+        console.log('window load');
+    }, 5000));//new offer every 5 seconds
+    function getNewOffer(json)
+    {
+            const asideSpecialOffers = document.getElementById("SpecialOffers");
+            const SPTitle = document.getElementById("eventTitle");
+            const SPCat = document.getElementById("catDesc");
+            const SPPrice = document.getElementById("price");
+            SPTitle.innerHTML = json.eventTitle;
+            SPCat.innerHTML = json.catDesc;
+            SPPrice.innerHTML = json.eventPrice;
+    }
+    */
+    </script>
+
+</body>
+
+</html>

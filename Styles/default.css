@@ -1,0 +1,37 @@
+/* Default Styles for Development*/
+html body 
+{
+    text-align: center;
+    * {outline: solid 0.1vh black;}
+}
+
+nav 
+{
+    ul
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        div {
+                float: right;
+            }
+        li {
+            padding: 1vh 1vw;
+            float: left;
+            a 
+            {
+                display: block;
+                text-decoration: none;
+            }
+        }
+        li.logo {
+            float: left;
+        }
+    }
+}
+
+footer 
+{
+    padding: 1vh 0;
+}
