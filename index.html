@@ -16,8 +16,9 @@
         <!-- Anchor to Top ALWAYS VISIBLE -->
         <!-- Should Work When cpy/pst to different page in ./-->
         <ul>
-            <li><a class="Nav-Logo" href="#">Logo</a></li>
-            <div class="Nav-Links">
+            <li><a class="Nav-Logo" href="#" title="To Top">Logo</a></li>
+            <div class="Nav-Links"> 
+            <!-- Div makes sure it's in the same order as is written -->
             <li><a class="Nav-Itm" href="./index.html">Home</a></li>
             <li><a class="Nav-Itm" href="">Link</a></li>
             <li><a class="Nav-Itm" href="">Link</a></li>
@@ -49,39 +50,7 @@
     </div>
 
     <script>
-    /**window.addEventListener('load', setInterval(function(){ //Set interval to get new offer
-        "use strict"; 
-        const offersJSON = 'getOffers.php';
-        fetch(offersJSON)
-            //Process response
-            .then( function (response) {
-                console.log(response); 
-                return response.json(); 
-                })
-            //Check Json is working
-            .then( function (json) {
-                getNewOffer(json);
-                console.log( json ); 
-                //this is wrong but really funny :]
-                //setInterval(function() {location.href="/KF5002AssesmentSite/home.php";},5000);
-                })
-            //Fail
-            .catch( function (error) {
-                console.log( "Error in window EventListener", error );
-                });		
-        console.log('window load');
-    }, 5000));//new offer every 5 seconds
-    function getNewOffer(json)
-    {
-            const asideSpecialOffers = document.getElementById("SpecialOffers");
-            const SPTitle = document.getElementById("eventTitle");
-            const SPCat = document.getElementById("catDesc");
-            const SPPrice = document.getElementById("price");
-            SPTitle.innerHTML = json.eventTitle;
-            SPCat.innerHTML = json.catDesc;
-            SPPrice.innerHTML = json.eventPrice;
-    }
-    */
+        
     </script>
 
 </body>
