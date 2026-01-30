@@ -2,7 +2,11 @@
 html body 
 {
     text-align: center;
-    * {outline: solid 0.1vh black;}
+    * 
+    {
+        outline: solid 0.1vh black;
+        font-family: Consolas, monospace;
+    }
 }
 
 nav 
@@ -31,7 +35,13 @@ nav
     }
 }
 
+header 
+{
+    padding: 1vh 0;
+}
+
 footer 
 {
     padding: 1vh 0;
+    
 }
