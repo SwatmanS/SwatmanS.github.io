@@ -1,47 +1,56 @@
-/* Default Styles for Development*/
+/* Default Styles*/
 html body 
 {
-    text-align: center;
+    background-color: wheat;
+    /*text-align: center;*/
     * 
     {
-        outline: solid 0.1vh black;
+        background-color: #c1c1c1;
+        outline: solid 0.1vh #000;
+        color: #000;
         font-family: Consolas, monospace;
+        padding: 1vh 1vw;
+        margin: 1vh 1vw;
     }
 }
 
 nav 
 {
+    display: flex;
+    justify-content: space-between;
+    a
+    {
+        display: block;
+        text-decoration: none;
+    }
+    .Nav-Logo 
+    {
+    }
     ul
     {
+        display: flex;
         list-style: none;
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
-        div {
-                float: right;
-            }
-        li {
-            padding: 1vh 1vw;
-            float: left;
-            a 
-            {
-                display: block;
-                text-decoration: none;
-            }
-        }
-        li.logo {
-            float: left;
-        }
     }
 }
 
-header 
+.Content-Container 
 {
-    padding: 1vh 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    aside
+    {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    main 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 footer 
 {
-    padding: 1vh 0;
-    
 }

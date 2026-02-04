@@ -14,62 +14,74 @@
 <body>
     <nav>
         <!-- NavBar Top Left Logo, Top Right Links (Collapse Into Burger) -->
-        <!-- Anchor to Top ALWAYS VISIBLE -->
+        <!-- Sticky to Top ALWAYS VISIBLE -->
         <!-- Should Work When cpy/pst to different page in ./-->
-        <ul>
-            <li><a class="Nav-Logo" href="#" title="To Top">Logo</a></li>
-            <div class="Nav-Links"> 
+        <div class="Nav-Logo"><div class="Nav-Logo-Spacer"><a href="#" title="To Top">Logo</a></div></div>
+        <ul class="Nav-Links"> 
             <!-- Div makes sure it's in the same order as is written -->
             <li><a class="Nav-Itm" href="./index.html">Home</a></li>
             <li><a class="Nav-Itm" href="">Projects</a></li>
+            <li><a class="Nav-Itm" href="">Blog</a></li>
             <li><a class="Nav-Itm" href="">More</a></li>
-            </div>
         </ul>
     </nav>
 
-    <section id="Sidebar">
-        <!-- Contents Table + Extra Controls (If Needed) -->
-        <!-- Anchor to Left ALWAYS VISIBLE but Collapsable -->
-        <section id="Sbr-Contents">
-        </section>
-     </section>
+    <div class="Content-Container">
 
-    <section>
-        <header>
-            <h1>Sam Swatman</h1>
+        <aside clas="Contents-Menu">
+            <!-- Quick Links to Each Section of the Site -->
+            <h2>Table Of Contents</h2>
+            <ul>
+                <li><a href="#Hdr-Abt">About Me</a></li>
+                <li><a href="#Hdr-Skills">My Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Contact">Contact Me</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <!-- Virtual CV Content Area -->
+            <header>
+                <h1>Sam Swatman</h1>
+            </header>
+        
             <section id="Hdr-Abt">
                 <h2>About Me</h2>
                 <p>The quick brown fox jumps over the lazy dog.</p>
             </section>
+
             <section id="Hdr-Skills">
                 <h2>My Skills</h2>
                 <p>The quick brown fox jumps over the lazy dog.</p>
             </section>
-        </header>
-        
-        <main>
+
             <section id="Projects">
                 <h2>Projects</h2>
                 <p>The quick brown fox jumps over the lazy dog.</p>
             </section>
+
             <section id="Education">
                 <h2>Education</h2>
                 <p>The quick brown fox jumps over the lazy dog.</p>
             </section>
+
             <section id="Experience">
                 <h2>Experience</h2>
                 <p>The quick brown fox jumps over the lazy dog.</p>
             </section>
+
             <section id="Contact">
                 <h2>Contact Me</h2>
                 <p>The quick brown fox jumps over the lazy dog.</p>
             </section>
         </main>
-        
-        <footer>
-            <p>&copy; 2026 Sam Swatman. All Rights Reserved</p>
-        </footer>
-    </section> 
+    </div> <!-- End Content Container -->
+
+    <footer>
+        <p>&copy; 2026 Sam Swatman. All Rights Reserved</p>
+    </footer>
     
     <div id="Background">
     <!-- Only makes sense to do this once the content is completed -->
