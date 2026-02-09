@@ -1,13 +1,13 @@
 /* Default Styles*/
 html body 
 {
-    background-color: black;
+    background-color: #1f1f1f;
     /*text-align: center;*/
     * 
     {
-        background-color: #c3ddd2;
-        outline: solid 0.1vh #000;
-        color: #000;
+        background-color: #1b1f1b;
+        outline: solid 0.1vh #f1f1f1;
+        color: #f1f1f1;
         font-family: Consolas, monospace;
         padding: 1vh 1vw;
         margin: 1vh 1vw;
@@ -68,6 +68,3 @@ nav
     }
 }
 
-footer 
-{
-}
