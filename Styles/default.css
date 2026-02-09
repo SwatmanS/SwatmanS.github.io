@@ -1,37 +1,15 @@
-/* Default Styles for Development*/
+/* Default Styles*/
 html body 
 {
-    text-align: center;
-    * {outline: solid 0.1vh black;}
-}
-
-nav 
-{
-    ul
+    background-color: black;
+    /*text-align: center;*/
+    * 
     {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
-        div {
-                float: right;
-            }
-        li {
-            padding: 1vh 1vw;
-            float: left;
-            a 
-            {
-                display: block;
-                text-decoration: none;
-            }
-        }
-        li.logo {
-            float: left;
-        }
+        background-color: #c3ddd2;
+        outline: solid 0.1vh #000;
+        color: #000;
+        font-family: Consolas, monospace;
+        padding: 1vh 1vw;
+        margin: 1vh 1vw;
     }
-}
-
-footer 
-{
-    padding: 1vh 0;
 }

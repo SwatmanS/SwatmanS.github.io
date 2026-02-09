@@ -1,11 +1,21 @@
 <!doctype html>
+<!--
+Website for Sam Swatman (SwatmanS) Swatmans.github.io  
+Hello! I hope this code base is somewhat navigable. I've added comments to both describe sections and to leave notes to myself,
+I plan on giving this an MIT license so hopefully it can help others out as well :)
+Some comments are also very silly :P 
+I've developed this using minimal external resources (no frameworks, no CDNs, no JS libraries) to make it as portable and easy to understand as possible.
+I have had a lot of inspiration from websites such as motherfuckingwebsite.com and it's message of simplicity and accessibility, and I hope to follow in those footsteps with this project.
+No GenAI tools were used in the making of this project, just pure HTML, CSS and a sprinkle of JS (with the exeption of intellisense if you count that).  
+^^^^ PUT IN README (But more professional) ^^^^
+-->
 <html lang="en">
    
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="icon" type="image/x-icon" href="favicon.ico">-->
-    <link href="./Styles/default.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./Styles/main.css" rel="stylesheet" type="text/css" media="all">
     <title>SwatmanS</title>
     <meta name="description" content="Portfolio of Sam Swatman (SwatmanS), 1st Class Computer Science Graduate">
 </head>
@@ -13,75 +23,200 @@
 <body>
     <nav>
         <!-- NavBar Top Left Logo, Top Right Links (Collapse Into Burger) -->
-        <!-- Anchor to Top ALWAYS VISIBLE -->
+        <!-- Sticky to Top ALWAYS VISIBLE -->
         <!-- Should Work When cpy/pst to different page in ./-->
-        <ul>
-            <li><a class="Nav-Logo" href="#">Logo</a></li>
-            <div class="Nav-Links">
+        <div class="Nav-Logo"><div class="Nav-Logo-Spacer"><a href="#" title="To Top">Logo</a></div></div>
+        <ul class="Nav-Links"> 
+            <!-- Div makes sure it's in the same order as is written -->
             <li><a class="Nav-Itm" href="./index.html">Home</a></li>
-            <li><a class="Nav-Itm" href="">Link</a></li>
-            <li><a class="Nav-Itm" href="">Link</a></li>
-            </div>
+            <li><a class="Nav-Itm" href="./construction.html">Projects</a></li>
+            <li><a class="Nav-Itm" href="./construction.html">Blog</a></li>
+            <li><a class="Nav-Itm" href="./construction.html">More</a></li>
         </ul>
     </nav>
-
     <header>
-        <h1>Title</h1>
-        <p>Main About</p>
+        <h1>Sam Swatman</h1>
     </header>
 
-    <aside>
-        <!-- Contents Table + Extra Controls (If Needed) -->
-         <!-- Anchor to Left ALWAYS VISIBLE but Collapsable -->
-    </aside>
+    <div class="Content-Container">
 
-    <main>
-        <h1>SwatmanS</h1>
-        <p>Welcome to the website of Events Guide North!</p>
-    </main>
+        <main>
+            <!-- Virtual CV Content Area -->
+        
+            <section id="About-Me">
+                <h2>About Me</h2>
+                <p>
+                    Highly motivated and creative Graduate with a strong passion for software design, development, and
+                    technology innovation. Skilled in problem-solving, analytical thinking, and communication, with
+                    experience in leading teams and delivering projects to tight deadlines. A quick learner who enjoys
+                    mastering new tools and technologies, continuously developing through personal and collaborative
+                    projects. Based in Newcastle but willing to travel/relocate.
+                </p>
+            </section>
 
-    
+            <section id="Skills">
+                <h2>My Skills</h2>
+                <section id="Skills-Languages">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li><span>Python</span></li>
+                        <li><span>C#</span></li>
+                        <li><span>Java</span></li>
+                        <li><span>JavaScript</span></li>
+                        <li><span>HTML/CSS</span></li>
+                        <li><span>PHP</span></li>
+                        <li><span>SQL</span></li>
+                        <li><span>C</span></li>
+                        <li><span>Bash</span></li>
+                        <li><span>R/RStudio</span></li>
+                        <li><span>MATLAB</span></li>
+                        <li><span>Godot/GDScript</span></li>
+                        <li><span>.NET</span></li>
+                        <li><span>jQuery</span></li>
+                    </ul>
+                </section>
+                <section id="Skills-Tools">
+                    <h3>Tools & technologies</h3>
+                    <ul>
+                        <li><span>Azure/Cloud Compuing</span></li>
+                        <li><span>Microsoft Office Suite</span></li>
+                        <li><span>Linux (Ubuntu/Arch)</span></li>
+                        <li><span>git/GitHub</span></li>
+                        <li><span>LAMP web Stacks</span></li>
+                        <li><span>SQLite/mySQL</span></li>
+                        <li><span>Hex Editing</span></li>
+                        <li><span>Ghidra/Reverse Engineering</span></li>
+                        <li><span>AI/ML</span></li>
+                        <li><span>DAW/Audio Editing</span></li>
+                        <li><span>Containerisation (Docker)</span></li>
+                        <li><span>Virtualisation (VirtualBox)</span></li>
+                        
+                    </ul>
+                </section>
+                <section id="Skills-Soft">
+                    <h3>Soft Skills</h3>
+                    <!-- Might remove/hide this part because it looks silly but LinkedIN/Indeed has em so... -->
+                    <ul>
+                        <li><span>Communication Skills</span></li>
+                        <li><span>Teamwork</span></li>
+                        <li><span>Problem Solving</span></li>
+                        <li><span>Adaptability</span></li>
+                        <li><span>Leadership</span></li>
+                        <li><span>Time Management</span></li>
+                        <li><span>Resilience</span></li>
+                        <li><span>Report Writing</span></li>
+                        <li><span>Attention to Detail</span></li>
+                        <li><span>Customer Service</span></li>
+                        <li><span>Project Management</span></li>
+                        <li><span>Research Skills</span></li>
+                        <li><span>Scope Management</span></li>
+                        <li><span>Engaging with Clients/Customers</span></li>    
+                        <li><span>Awareness of ICT Legislation</span></li>
+                        <li><span>Agile Methodologies</span></li>
+                        <!-- Absolutley hilarious brilliant and hireable -->
+                    </ul>
+                </section>
+
+            </section>
+
+            <section id="Projects">
+                <!-- Hardcode Project articles for now-->
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <article class="Proj-Sumr-Article">
+                            <header>
+                                <img src="./Media/Placeholder128x128.webp" alt="Placeholder Image">
+                                <h3>Personal Website</h3>
+                                <ul>
+                                    <li><span>Personal</span></li>
+                                    <li><span>HTML5</span></li>
+                                    <li><span>CSS3</span></li>
+                                    <li><span>JavaScript</span></li>
+                                    <li><span>Github</span></li>
+                                    <li><span>git</span></li>
+                                </ul>
+                            </header>
+                            <p>
+                                The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+                                The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+                                The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+                                The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+                            </p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="Proj-Sumr-Article">
+                            <header>
+                                <img src="./Media/Placeholder128x128.webp" alt="Placeholder Image">
+                                <h3>Placeholder Project</h3>
+                                <ul>
+                                    <li><span>Type</span></li>
+                                    <li><span>Language</span></li>
+                                    <li><span>Language</span></li>
+                                    <li><span>Language</span></li>
+                                    <li><span>Tool</span></li>
+                                    <li><span>Skill</span></li>
+                                </ul>
+                            </header>
+                            <p>
+                                The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+                                The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+                                The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+                                The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+                            </p>
+                        </article>
+                    </li>
+            </section>
+
+            <section id="Contact">
+                <h2>Contact Me</h2>
+                <!-- Email, LinkedIn Github LeetCode? Instagram@SwatmanS  Soundcloud(s) Mixcloud(When you set it up)  -->
+                <p>If you like what you see and would like to get in touch, feel free to <a href="mailto:sam.swatman@gmail.com">email me</a>, reach out on <a href="https://www.linkedin.com/in/samswatman">LinkedIn</a>, or find me on <a href="https://github.com/SwatmanS">GitHub</a>.</p>
+            </section>
+        </main>
+    </div> <!-- End Content Container -->
+
     <footer>
         <p>&copy; 2026 Sam Swatman. All Rights Reserved</p>
     </footer>
-
+    
     <div id="Background">
+    <!-- Only makes sense to do this once the content is completed -->
     </div>
 
     <script>
-    /**window.addEventListener('load', setInterval(function(){ //Set interval to get new offer
-        "use strict"; 
-        const offersJSON = 'getOffers.php';
-        fetch(offersJSON)
-            //Process response
-            .then( function (response) {
-                console.log(response); 
-                return response.json(); 
-                })
-            //Check Json is working
-            .then( function (json) {
-                getNewOffer(json);
-                console.log( json ); 
-                //this is wrong but really funny :]
-                //setInterval(function() {location.href="/KF5002AssesmentSite/home.php";},5000);
-                })
-            //Fail
-            .catch( function (error) {
-                console.log( "Error in window EventListener", error );
-                });		
-        console.log('window load');
-    }, 5000));//new offer every 5 seconds
-    function getNewOffer(json)
-    {
-            const asideSpecialOffers = document.getElementById("SpecialOffers");
-            const SPTitle = document.getElementById("eventTitle");
-            const SPCat = document.getElementById("catDesc");
-            const SPPrice = document.getElementById("price");
-            SPTitle.innerHTML = json.eventTitle;
-            SPCat.innerHTML = json.catDesc;
-            SPPrice.innerHTML = json.eventPrice;
-    }
-    */
+        /*
+            Ascii logos here if needed 
+            Made using https://www.asciiart.eu/ascii-draw-studio/app 
+            
+            SWMN: Square aspect ratio, Favicon and Logo
+            ██▌▌▌▌██▌█▌▌
+            ▌ ▌▌▌▌▌▌▌▌▌▌
+            ▌  ▌▌▌▌▌▌▌▌▌
+            ▀▀▌▌▌▌▌▌▌▌▌▌
+            ▌ ▌▌▌▌▌▌▌▌▌▌
+            ██▌██▌▌▌▌▌█▌
+
+            SATMANS: Rectangular aspect ratio, all caps
+
+            ██▌▌▌▌██▌██▌██▌██▌█▌▌██▌
+            ▌ ▌▌▌▌▌ ▌ ▌ ▌▌▌▌ ▌▌▌▌▌ ▌
+            ▌  ▌▌▌▌ ▌ ▌ ▌▌▌▌ ▌▌▌▌▌  
+            ▀▀▌▌▌▌██▌ ▌ ▌▌▌██▌▌▌▌▀▀▌
+            ▌ ▌▌▌▌▌ ▌ ▌ ▌▌▌▌ ▌▌▌▌▌ ▌
+            ██▌██▌▌ ▌ ▌ ▌▌▌▌ ▌▌█▌██▌
+
+            SwatmanS: Rectangular aspect ratio, Stylised caps and 't'
+
+            ██▌                  ██▌
+            ▌ ▌                  ▌ ▌
+            ▌  ▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀ ▌  
+            ▀▀▌▌▌▌▐█▌ █ ██▌▐█▌█▌▌▀▀▌
+            ▌ ▌▌▌▌▐▄▌ █ ▌▌▌▐▄▌▌▌▌▌ ▌
+            ██▌██▌▐ ▌ █ ▌▌▌▐ ▌▌█▌██▌
+        */
+        
     </script>
 
 </body>
