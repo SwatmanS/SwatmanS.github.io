@@ -1,16 +1,17 @@
 /* Default Styles*/
 html body 
 {
-    background-color: #1f1f1f;
+    background-color: #000;
     /*text-align: center;*/
     * 
     {
-        background-color: #1b1f1b;
-        outline: solid 0.1vh #f1f1f1;
-        color: #f1f1f1;
+        background-color: #000;
+        outline: solid 0.1vh #999;
+        color: #fff;
         font-family: Consolas, monospace;
         padding: 1vh 1vw;
         margin: 1vh 1vw;
+        align-items: center;
     }
 }
 
