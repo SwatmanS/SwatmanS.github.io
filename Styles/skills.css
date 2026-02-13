@@ -1,0 +1,49 @@
+:root
+{
+    --clear: rgba(0,0,0,0);
+}
+.Skills-List
+{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    li 
+    {
+        display: block;
+        padding: 1vh 0vw;
+        margin: 1vh 1vw;
+        border-color: black;
+        outline: 0;
+        .Skill-Element 
+        {
+            display: inline-block;
+            background-color: gray;
+            border-radius: 25vb;
+            padding: 1vh 3vw;
+            margin: 1vh 0vw;
+            img 
+            {
+                display: inline-block;
+                padding: 0vh 0vw;
+                outline: 0;
+                background-color: var(--clear);
+            }
+        }
+        :hover
+        {
+        
+            background-color: lightgray;
+        }
+        li #Skill-Python
+        {
+            .Skill-Element
+            {
+                background-color: yellow;
+                :hover 
+                {
+                    background-color: lightyellow;
+                }
+            }
+        }
+    }
+}
