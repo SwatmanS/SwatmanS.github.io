@@ -14,36 +14,407 @@
         margin: 1vh 1vw;
         border-color: black;
         outline: 0;
+        font-weight: 1000;
         .Skill-Element 
         {
             display: inline-block;
+            text-align: center;
+            outline-color: #FFF;
             background-color: gray;
-            border-radius: 25vb;
-            padding: 1vh 3vw;
-            margin: 1vh 0vw;
-            img 
-            {
-                display: inline-block;
-                padding: 0vh 0vw;
-                outline: 0;
-                background-color: var(--clear);
-            }
+            color: white;
+            border-radius: 999px;
+            padding: 5px 20px;
+            min-width: 50px;
+            margin: 0px 0px;
         }
         :hover
         {
-        
+            outline-color: gray;
             background-color: lightgray;
         }
-        li #Skill-Python
+    }
+    /* Language/Tool specific styling */
+    #Skill-Python
+    {
+        .Skill-Element
         {
-            .Skill-Element
-            {
-                background-color: yellow;
-                :hover 
-                {
-                    background-color: lightyellow;
-                }
-            }
+            color: #FFFFFF;
+            background-color: #FFD43B;
+            outline-color: #FFD43B;
+        }
+        :hover 
+        {
+            color: #FFFFFF;
+            background-color: #fee89a;
         }
     }
+    #Skill-C_Sharp
+    {
+        .Skill-Element
+        {
+            color: #FFFFFF;
+            background-color: #CC00FF;
+            outline-color: #CC00FF;
+        }
+        :hover 
+        {
+            color: #FFFFFF;
+            background-color: #eca2ff;
+        }
+    }
+    #Skill-Java
+    {
+        .Skill-Element
+        {
+            color: #FFFFFF;
+            background-color: #ffa82f;
+            outline-color: #ffa82f;
+        }
+        :hover 
+        {
+            color: #FFFFFF;
+            background-color: #fad29a;
+        }
+    }
+    #Skill-JavaScript
+    {
+        .Skill-Element
+        {
+            color: #FFFFFF;
+            background-color: #FFD43B;
+            outline-color: #FFD43B;
+        }
+        :hover 
+        {
+            color: #FFFFFF;
+            background-color: #fee89a;
+        }
+    }
+    #Skill-jQuery
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #008cff;  
+            outline-color: #008cff;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #90caf9;
+        }
+    }
+    #Skill-Html
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #ff6f00;
+            outline-color: #ff6f00;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #fc9a4f;
+        }
+    }
+    #Skill-Css
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #008cff;  
+            outline-color: #008cff;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #90caf9;
+        }
+    }
+    #Skill-Php
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #9000ff;  
+            outline-color: #9000ff;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #c176fa;
+        }
+    }
+    #Skill-SQL
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #FF0000;  
+            outline-color: #FF0000;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #FF9999;
+        }
+    }
+    #Skill-C
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #0000ff;  
+            outline-color: #0000ff;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #9999fF;
+        }
+    }
+    #Skill-Bash
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #00CC00;  
+            outline-color: #00CC00;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #99FF99;
+        }
+    }
+    #Skill-rStudio
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #008cff;  
+            outline-color: #008cff;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #90caf9;
+        }
+    }
+    #Skill-MATLAB
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #ff6f00;
+            outline-color: #ff6f00;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #fc9a4f;
+        }
+    }
+    #Skill-Godot
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #008cff;  
+            outline-color: #008cff;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #90caf9;
+        }
+    }
+    #Skill-DotNet
+    {
+        .Skill-Element
+        {
+            color: #FFFFFF;
+            background-color: #CC00FF;
+            outline-color: #CC00FF;
+        }
+        :hover 
+        {
+            color: #FFFFFF;
+            background-color: #eca2ff;
+        }
+    }
+    #Skill-Azure
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #0000ff;  
+            outline-color: #0000ff;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #9999fF;
+        }
+    }
+    #Skill-MS_Office
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #ff6f00;
+            outline-color: #ff6f00;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #fc9a4f;
+        }
+    }
+    #Skill-Linux
+    {   /* Arch btw XD */
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #00CC00;  
+            outline-color: #00CC00;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #99FF99;
+        }
+    }
+    #Skill-Git
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #ff6f00;
+            outline-color: #ff6f00;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #fc9a4f;
+        }
+    }
+    #Skill-Lamp
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #00CC00;
+            outline-color: #00CC00;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #99FF99;
+        }
+    }
+    #Skill-SQLite
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #FF0000;  
+            outline-color: #FF0000;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #FF9999;
+        }
+    }
+    #Skill-Hex
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #00CC00;
+            outline-color: #00CC00;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #99FF99;
+        }
+    }
+    #Skill-Ghidra
+    {
+        .Skill-Element
+        {
+            color: #FFFFFF;
+            background-color: #FFD43B;
+            outline-color: #FFD43B;
+        }
+        :hover 
+        {
+            color: #FFFFFF;
+            background-color: #fee89a;
+        }
+    }
+    #Skill-AIyML
+    {   /* Using the spanish y because i like it over a '-' or '+' in this context */
+        .Skill-Element
+        {
+            color: #FFFFFF;
+            background-color: #ff00c3;
+            outline-color: #ff00c3;
+        }
+        :hover 
+        {
+            color: #FFFFFF;
+            background-color: #fa8ce0;
+        }
+    }
+    #Skill-DAWs
+    {
+        .Skill-Element
+        {
+            color: #FFFFFF;
+            background-color: #CC00FF;
+            outline-color: #CC00FF;
+        }
+        :hover 
+        {
+            color: #FFFFFF;
+            background-color: #eca2ff;
+        }
+    }
+    #Skill-Docker
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #008cff;  
+            outline-color: #008cff;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #90caf9;
+        }
+    }
+    #Skill-VMs
+    {
+        .Skill-Element
+        {
+            color: #FFF;
+            background-color: #00CC00;
+            outline-color: #00CC00;
+        }
+        :hover 
+        {
+            color: #FFF;
+            background-color: #99FF99;
+        }
+    }
+    /* 
+        Don't know enough about CSS yet to improve how this looks,
+        I suppose i could use variables since theres so much redundancy 
+        but I'm not too bothered at the moment.
+    */
 }
