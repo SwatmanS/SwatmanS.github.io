@@ -1,15 +1,56 @@
 /* Default Styles*/
-html body 
+html 
 {
     background-color: black;
-    /*text-align: center;*/
     * 
     {
-        background-color: #c3ddd2;
-        outline: solid 0.1vh #000;
-        color: #000;
+        background-color: #000;
+        outline: solid 1px #FFF;
+        color: #FFF;
         font-family: Consolas, monospace;
-        padding: 1vh 1vw;
-        margin: 1vh 1vw;
+        padding: 10px;
+        margin: 10px;
+    }
+    body 
+    {
+        padding: 0 0;
+        margin: 0 0;
+    }
+}
+
+nav 
+{
+    position: sticky;
+    top: 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 1px;
+    margin-bottom: 10px;
+    a
+    {
+        outline: 0;
+        display: block;
+        text-decoration: none;
+    }
+    .Nav-Logo 
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+    .Nav-Itm 
+    {
+        margin: 0px;
+    }
+    ul
+    {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li 
+        {
+            margin: 0px 0px;
+        }              
     }
 }
