@@ -1,6 +1,28 @@
+Ascii logos here if needed 
+Made using https://www.asciiart.eu/ascii-draw-studio/app 
+
+SWMN: Square aspect ratio, Favicon and Logo
 ██▌▌▌▌██▌█▌▌
 ▌ ▌▌▌▌▌▌▌▌▌▌
 ▌  ▌▌▌▌▌▌▌▌▌
 ▀▀▌▌▌▌▌▌▌▌▌▌
 ▌ ▌▌▌▌▌▌▌▌▌▌
 ██▌██▌▌▌▌▌█▌
+
+SATMANS: Rectangular aspect ratio, all caps
+
+██▌▌▌▌██▌██▌██▌██▌█▌▌██▌
+▌ ▌▌▌▌▌ ▌ ▌ ▌▌▌▌ ▌▌▌▌▌ ▌
+▌  ▌▌▌▌ ▌ ▌ ▌▌▌▌ ▌▌▌▌▌  
+▀▀▌▌▌▌██▌ ▌ ▌▌▌██▌▌▌▌▀▀▌
+▌ ▌▌▌▌▌ ▌ ▌ ▌▌▌▌ ▌▌▌▌▌ ▌
+██▌██▌▌ ▌ ▌ ▌▌▌▌ ▌▌█▌██▌
+
+SwatmanS: Rectangular aspect ratio, Stylised caps and 't'
+
+██▌                  ██▌
+▌ ▌                  ▌ ▌
+▌  ▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀ ▌  
+▀▀▌▌▌▌▐█▌ █ ██▌▐█▌█▌▌▀▀▌
+▌ ▌▌▌▌▐▄▌ █ ▌▌▌▐▄▌▌▌▌▌ ▌
+██▌██▌▐ ▌ █ ▌▌▌▐ ▌▌█▌██▌

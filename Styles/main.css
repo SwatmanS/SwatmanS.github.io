@@ -1,4 +1,13 @@
 /* Main Styles*/
+
+@font-face {
+  font-family: 'Sysfont';
+  src: url(../Media/Fonts/sysfont/webfonts/sysfont.woff2) format('woff2'),
+  url(../Media/Fonts/sysfont/webfonts/sysfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html 
 {
     background-color: black;
@@ -7,7 +16,7 @@ html
         background-color: #000;
         outline: solid 1px #333;
         color: #FFF;
-        font-family: Consolas, monospace;
+        font-family: 'Sysfont';
         padding: 10px;
         margin: 10px;
     }
